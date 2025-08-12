@@ -1,0 +1,38 @@
+[book]
+#title = "Example book"
+#author = "John Doe"
+description = "The example book covers examples."
+language = "zh-Hans"
+
+[build]
+build-dir = "docs"
+create-missing = false
+mathjax = true
+
+[preprocessor.index]
+
+[preprocessor.links]
+
+[output.html]
+mathjax-support = true
+highlight-theme = "github"
+site-url = "/study-note/"
+mathjax = true
+additional-js = ["assets/js/MathJax.js"]
+additional-css = ["assets/css/custom.css"]
+
+
+[output.html.search]
+limit-results = 15
+
+[output.html.playground.markdown]
+image_directory = "images"
+
+[output.html.math]
+enable = true
+
+[output.html.playground]
+editable = true
+
+[book.preprocessors]
+search = { name = "mdbook-search" }
