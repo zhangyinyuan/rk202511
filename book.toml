@@ -5,7 +5,7 @@ description = "The example book covers examples."
 language = "zh-Hans"
 
 [build]
-build-dir = "docs"
+build-dir = "book"
 create-missing = false
 mathjax = true
 
@@ -16,7 +16,7 @@ mathjax = true
 [output.html]
 mathjax-support = true
 highlight-theme = "github"
-site-url = "/study-note/"
+site-url = "/rk202511/"
 mathjax = true
 additional-js = ["assets/js/MathJax.js"]
 additional-css = ["assets/css/custom.css"]
