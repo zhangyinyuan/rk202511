@@ -39,6 +39,34 @@ TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、
     - (1,) # 单元素元组
     - (1,2,3) # 多元素元组
     > 特别注意： (1) 不是元组，是数字1
-7.         
+7. 执行以下 Python 语句之后，列表x 为 ( ) D.[1,2,3,[4,5]]
 
+    x=[1,2,3]
+
+    x.append([4,5])
+8. 执行以下Python语句之后，列表y为( )。 B.[1,2,3,4,5,6]
+
+    x=[1,2,3]
+
+    y=x+[4,5,6]
+9. 关于Python，下列说法正确的是( ) B 
+
+    A.用try捕获异常，有except，无需执行finaly : finaly 总会被执行
+
+    B.可以使用 raise关键字来手动抛出异常
+
+    C.except Exception可以捕获**所有**异常:  BaseException是所有异常的**基类**，捕获所有异常用**BaseException**
+
+    D.可以用switch...case语句表示选择结构: Python中没有内置的switch...case语句
+10. 字典是Python语言中的一个复合数据类型，现定义字典dict1如下，则不正确的语句为()。dict1={name':'David','age'.10,'class':'first}
+      
+
+    A.dict1['age']=15 ✅ 正确。修改键 `'age'` 的值，变成 15。
+
+    B.del dict1[1] ❌ 错误。字典的键是 `'name'`、`'age'`、`'class'`，没有键 `1`，会抛出 `KeyError: 1`
+
+    C.del dict1 ✅ 正确。可以删除整个字典对象。之后再访问 `dict1` 会报错 `NameError`，但语句本身没问题。
+
+    D.print(dict1 ['name']) ✅ 正确。输出 `"David"`。
+11. 
 
