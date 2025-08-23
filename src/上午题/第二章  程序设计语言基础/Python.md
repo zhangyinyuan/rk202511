@@ -34,6 +34,11 @@ TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、
     B. False
     >答案：A
     解析：a<b的值为True，b>=3的值为True，True and True的值为True。
-6. 在 Python 语言中，语句x=(49)不能定义一个元组
+6. 元组的表示形式
+    - () # 空元组, 等价于tuple()
+    - (1,) # 单元素元组
+    - (1,2,3) # 多元素元组
+    > 特别注意： (1) 不是元组，是数字1
+7.         
 
 
