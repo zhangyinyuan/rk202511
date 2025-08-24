@@ -7,29 +7,17 @@ language = "zh-Hans"
 [build]
 build-dir = "book"
 create-missing = false
-mathjax = true
-
-[preprocessor.index]
-
-[preprocessor.links]
 
 [output.html]
-mathjax-support = true
+mathjax-support = true       # 只保留这一句就能启用 MathJax
 highlight-theme = "github"
 site-url = "/rk202511/"
-mathjax = true
-additional-js = ["assets/js/MathJax.js"]
-additional-css = ["assets/css/custom.css"]
-
 
 [output.html.search]
 limit-results = 15
 
 [output.html.playground.markdown]
 image_directory = "images"
-
-[output.html.math]
-enable = true
 
 [output.html.playground]
 editable = true
