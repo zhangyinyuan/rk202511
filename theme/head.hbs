@@ -14,9 +14,18 @@ mathjax-support = true
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
+  function renderMath() {
     if (window.MathJax) {
       MathJax.typesetPromise();
     }
+  }
+
+  // 页面初次加载
+  document.addEventListener("DOMContentLoaded", renderMath);
+
+  // mdBook 切换章节时
+  document.addEventListener("DOMContentLoaded", () => {
+    const observer = new MutationObserver(renderMath);
+    observer.observe(document.querySelector("#content"), { childList: true, subtree: true });
   });
 </script>
