@@ -13,6 +13,7 @@ TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、
    B. Python是一种面向对象的语言
    C. Python是一种弱类型语言
    D. Python是一种静态类型语言
+   
    >答案：D
    解析：Python是一种动态类型语言，变量的类型是在运行时确定的，而不是在编译时确定的。   
 3. 在Python语言中，（50）是一种不可变的、有序的序列结构，其中元素可以重复
@@ -20,13 +21,15 @@ TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、
     B. 元组
     C. 字典
     D. 集合
+    
     >答案：B
     解析：元组是不可变的、有序的序列结构，元素可以重复。列表是可变的、有序的序列结构，元素可以重复。字典是无序的、可变的键值对集合，键不能重复。集合是无序的、可变的唯一元素集合，元素不能重复。
-4. 在Python中，表达式2**3的结果是（44）。
+4. 在Python中，表达式2***3的结果是（44）。
     A. 6
     B. 8
     C. 9
     D. 5
+    
     >答案：B
     解析：在Python中，**运算符表示幂运算，2**3表示2的3次方，结果是8。
 5. 在Python中，设a=2,b=3,表达式a<b and b>=3的值是（61）。
@@ -59,7 +62,7 @@ TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、
 
     D.可以用switch...case语句表示选择结构: Python中没有内置的switch...case语句
 10. 字典是Python语言中的一个复合数据类型，现定义字典dict1如下，则不正确的语句为()。dict1={name':'David','age'.10,'class':'first}
-      
+    
 
     A.dict1['age']=15 ✅ 正确。修改键 `'age'` 的值，变成 15。
 
