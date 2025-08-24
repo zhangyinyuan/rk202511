@@ -23,7 +23,7 @@ jobs:
       # 直接下载你打好的 Linux 版 mdBook
       - name: Install mdBook (Chinese search fork)
         run: |
-          curl -L -o mdbook https://github.com/zhangyinyuan/mdBook/releases/download/auto-build/mdbook
+          curl -L -o mdbook https://github.com/zhangyinyuan/mdBook/releases/download/auto-build/mdbook-linux
           chmod +x mdbook
           sudo mv mdbook /usr/local/bin/
 
