@@ -1,0 +1,15 @@
+{{!-- ✅ 最小可行配置
+
+你的 book.toml 保持简单：
+
+[output.html]
+mathjax-support = true
+
+配合 theme/head.hbs，无论如何都能在 GitHub Pages 上渲染公式。 --}}
+
+<script>
+  window.MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
