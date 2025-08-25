@@ -32,7 +32,7 @@ TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、
     
     >答案：B
     解析：在Python中，**运算符表示幂运算，2**3表示2的3次方，结果是8。
-5. 在Python中，设a=2,b=3,表达式a<b and b>=3的值是（61）。
+5. 在Python中，设a=2, b=3,表达式`a<b and b>=3`的值是（61）。
     A. True
     B. False
     >答案：A
