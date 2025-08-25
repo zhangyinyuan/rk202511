@@ -35,6 +35,7 @@ TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、
 5. 在Python中，设a=2, b=3,表达式`a<b and b>=3`的值是（61）。
     A. True
     B. False
+    
     >答案：A
     解析：a<b的值为True，b>=3的值为True，True and True的值为True。
 6. 元组的表示形式
