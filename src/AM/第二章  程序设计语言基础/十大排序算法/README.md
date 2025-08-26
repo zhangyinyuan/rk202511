@@ -1,6 +1,6 @@
 # 十大排序算法
 
-## [简单选择排序](https://gitbook.nguone.eu.org/软考/软件设计师中级/上午题/排序算法.html?highlight=简单#简单选择排序)
+## [简单选择排序](./select-sort.py)
 
 **从左到右, 在数组中找到最小值,和第一位交换位置**,然后在剩下的数中再找出最小的值放在剩下数的第一位,重复以上操作,直到只剩下最后一个数,结束. 得到了从小到大的有序数组
 
@@ -30,6 +30,20 @@
 
 **总结**：每趟确定一个最大值，n 个数需要 n-1 趟。最好情况 O(n)，最坏 O(n²)。
 
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+        print(f"第{i+1}轮排序结果：", arr)          
+    return arr
+
+arr = [20, 40, 30, 10, 60, 50]
+print("排序前：", arr)
+print("排序后：", bubble_sort(arr))
+```
 ------
 
 ## 2. 插入排序 (Insertion Sort)

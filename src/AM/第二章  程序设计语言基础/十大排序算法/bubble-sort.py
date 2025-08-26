@@ -7,9 +7,9 @@ def bubble_sort(arr):
         print(f"第{i+1}轮排序结果：", arr)          
     return arr
 
-nums = [20, 40, 30, 10, 60, 50]
-print("排序前：", nums)
-print("排序后：", bubble_sort(nums))
+arr = [20, 40, 30, 10, 60, 50]
+print("排序前：", arr)
+print("排序后：", bubble_sort(arr))
 
 # 输出结果
 # 排序前： [20, 40, 30, 10, 60, 50]
