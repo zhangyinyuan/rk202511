@@ -208,4 +208,4 @@ print("排序后：", bubble_sort(arr))
 
 > [图片来自于 https://www.runoob.com/wp-content/uploads/2019/03/sort.png](https://www.runoob.com/wp-content/uploads/2019/03/sort.png)
 
-![image-20250824143635489](../../img/image-20250824143635489.png)
+![image-20250824143635489](../../../img/image-20250824143635489.png)
