@@ -209,3 +209,26 @@ print("排序后：", bubble_sort(arr))
 > [图片来自于 https://www.runoob.com/wp-content/uploads/2019/03/sort.png](https://www.runoob.com/wp-content/uploads/2019/03/sort.png)
 
 ![image-20250824143635489](../../../img/image-20250824143635489.png)
+
+不稳定：**快选希尔堆**，:point_right: 形象理解：因为**太快，容易乱**，**所以不稳定**
+
+归队很特殊，时间复杂度全是O(nlogn)
+
+空间复杂度最特殊的是归并排序，O(n)；快速排序也特殊，空间复杂度是O（logn），独苗苗
+
+技术的成长空间是O(k)的
+
+统计(乘)积, 时间复杂度记忆：统计（合计）用加法，表示O(n+k),基数的谐音乘积，用O(n*k)
+
+统基（统计）空间复杂度是O(n+k)
+
+---
+
+
+
+
+
+
+
+
+
