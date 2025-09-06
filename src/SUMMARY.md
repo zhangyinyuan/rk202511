@@ -1,4 +1,4 @@
-/AM/# Summary
+# Summary
 
 - [AM](./AM/README.md)
   - [第一章 计算机系统概论](./AM/第一章%20计算机系统概论/README.md)
