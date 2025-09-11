@@ -9,10 +9,10 @@ build-dir = "book"
 create-missing = false
 
 [output.html]
-# 完全由 theme/head.hbs 控制 它是v3, 这里是v2
-#mathjax-support = true       # 只保留这一句就能启用 MathJax
 highlight-theme = "github"
 site-url = "/rk202511/"
+mathjax-support = false
+katex-support = true
 
 [output.html.search]
 limit-results = 15
