@@ -18,6 +18,8 @@
 1. **合并律（Union / Composition）**
    若X→Y，X→Z，则X→YZ为F所蕴含；
 2. **分解律（Decomposition / Projectivity）**
+   
+   X 可以推出一个大集合Y，那么X一定能推出Y中的小集合或者单个元素（X→AB,则X→A，X→B）
    若X→Y，Z⊆Y，则X→Z为F所蕴含。
 3. **伪传递律（Pseudo-Transitivity）**
    若X→Y，WY→Z，则XW→Z为F所蕴含；
