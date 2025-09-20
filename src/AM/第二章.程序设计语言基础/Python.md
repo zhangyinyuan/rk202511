@@ -290,18 +290,6 @@ A. `2` ✅
 
 ------
 
-**18.**
- `True is 1` 的结果是（ ）
-
-A. `True`
- B. `False` ✅
- C. `Error`
- D. `None`
-
-> `is` 比地址。
-
-------
-
 **19.**
  `input()` 读取到的数据类型是（ ）
 
@@ -587,30 +575,6 @@ A. `True` ✅
  D. `Error`
 
 > `False` 也是 0。
-
-------
-
-**43.**
- `True is 1` 的结果是（ ）
-
-A. `True`
- B. `False` ✅
- C. `None`
- D. `Error`
-
-> `is` 比地址。
-
-------
-
-**44.**
- `False is 0` 的结果是（ ）
-
-A. `True`
- B. `False` ✅
- C. `None`
- D. `Error`
-
-> `is` 比地址。
 
 ------
 
