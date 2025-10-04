@@ -191,7 +191,7 @@ A. `[1,2,1,2]` ✅
 ------
 
 **9.**
- `[[]]*3` 修改第一个元素后结果是（ ）
+ `a=[[]]*3; a[0].append(1); print(a)` 修改第一个元素后结果是（ ）
 
 A. `[[1],[],[]]`
  B. `[[1],[1],[1]]` ✅
@@ -199,6 +199,10 @@ A. `[[1],[],[]]`
  D. `Error`
 
 > 是同一个列表引用。
+>
+> 上面的程序，如果继续执行`a[0]=1;print(a)`, 得到的结果是
+>
+> `[2, [1], [1]]`
 
 ------
 
@@ -211,6 +215,8 @@ A. `True`
  D. `Error`
 
 > `is` 比较地址，不是值。
+>
+> `[] == []`得到的是**True**
 
 ------
 
@@ -223,6 +229,8 @@ A. `False`
  D. `Error`
 
 > 非空字符串都为 True。
+>
+> `bool('')`得到的是True
 
 ------
 
@@ -1252,4 +1260,27 @@ A. `(1,2,1,2)` ✅
  D. `None`
 
 ---
+
+**107**. a=Null 或者 a=null
+
+> 注意：Python中没有null，用None表示，**首字母N大写**
+
+```
+>>> a=Null
+Traceback (most recent call last):
+  File "<python-input-70>", line 1, in <module>
+    a=Null
+      ^^^^
+NameError: name 'Null' is not defined
+
+>>> a=none
+Traceback (most recent call last):
+  File "<python-input-78>", line 1, in <module>
+    a=none
+      ^^^^
+NameError: name 'none' is not defined. Did you mean: 'None'?
+>>> a=None
+>>> print(a)
+None
+```
 
