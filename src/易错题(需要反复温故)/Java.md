@@ -53,8 +53,8 @@ class MenuTestDrive{
 
 #### Java容易丢分的点总结
 
-1. 忘记了修饰符public/protected
+1. 忘记了修饰符public/protected，具体加或不加，加什么，入乡随俗，跟着题目变
 2. 忘记了abstract class
-3. 方法名忘记了public/protect abstract
+3. 方法名忘记了{public/protected} abstract, public/protected可选，入乡随俗，跟着题目变
 4. 构造方法需要传参，但是没有传
 5. 抽象的方法没有调用，对于复杂题目
