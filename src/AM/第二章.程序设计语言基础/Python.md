@@ -1,5 +1,43 @@
 # Python
 
+## 常见类型
+
+```python
+>>> type(())
+<class 'tuple'>
+>>> type((1,))
+<class 'tuple'>
+
+>>> type({1,})
+<class 'set'>
+>>> type({1,2})
+<class 'set'>
+
+>>> type({})
+<class 'dict'>
+>>> type({'name':'lucy'})
+<class 'dict'>
+
+>>> type([])
+<class 'list'>
+>>> type([1,2,])
+<class 'list'>
+
+```
+
+## 通用语法
+
+```python
+* 复制
+*** 立方
++ 拼接
+append 整体追加
+/ 真除，有小数也保留小数 `0.72/2`
+// 整除，向下取整 0.72//2 is 0， 特别注意的是，一个元色是浮点，得到的值一定是浮点
+== 值比较
+is 地址比较
+```
+
 ## 深度学习模型框架
 TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、FastAI
 
@@ -403,6 +441,15 @@ A. `{1,1,2}`
  D. `Error`
 
 > 集合自动去重。
+>
+> 扩展：
+>
+> 查看类型
+>
+> ```python
+> >>> type(set([1,1,2]))
+> <class 'set'>
+> ```
 
 ------
 
@@ -415,6 +462,11 @@ A. `set`
  D. `tuple`
 
 > `{}` 默认是空字典。
+>
+> ```python
+> >>> type({})
+> <class 'dict'>
+> ```
 
 ------
 
