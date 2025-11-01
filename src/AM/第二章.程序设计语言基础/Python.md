@@ -75,10 +75,10 @@ TensorFlow、PyTorch、Keras、MXNet、Caffe、Theano、CNTK、Chainer、DL4J、
 
     D.可以用switch...case语句表示选择结构: Python中没有内置的switch...case语句
     
-10. 字典是Python语言中的一个复合数据类型，现定义字典dict1如下，则不正确的语句为()。dict1={name':'David','age'.10,'class':'first}
+10. 字典是Python语言中的一个复合数据类型，现定义字典dict1如下，则不正确的语句为()。`dict1={'name':'David','age':10,'class':'first'}`
   
 
-    A.dict1['age']=15 ✅ 正确。修改键 `'age'` 的值，变成 15。
+    A.dict1['age']=15 ✅ 正确。修改键 `'age'` 的值，变成 15。单引号不能丢
 
     B.del dict1[1] ❌ 错误。字典的键是 `'name'`、`'age'`、`'class'`，没有键 `1`，会抛出 `KeyError: 1`
 
